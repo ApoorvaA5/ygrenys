@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
+
 interface ClientLogo {
   name: string;
   industry: string;
@@ -15,7 +16,7 @@ const clientLogos: ClientLogo[] = [
     name: "T&S",
     industry: "Commercial Plumbing",
     location: "United States of America",
-    logo: "https://keep.google.com/u/0/media/v2/18k12hMoB2N_J4wF-080H8Vlerx8PoTokhu9oePBCjnWluIKsMj54gRkhGED4LXdC/1AQoJYM99ds9xaUaCF8Ia8zEKYBrf98Bo_TRuzRbqnyyujqVF8S2JZfLBD8hsBwI?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp"
+    logo: "./assets/T&s.png"
   },
   {
     name: "Finish Thompson Inc.",
