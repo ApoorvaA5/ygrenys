@@ -2,6 +2,13 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import TSLogo from "../assets/TandS.png";
+import DILogo from "../assets/dixon.png";
+import MINILogo from "../assets/mining.png";
+import PUMLogo from "../assets/pump.png";
+import GUALogo from "../assets/guard.png";
+
+
 
 
 interface ClientLogo {
@@ -16,19 +23,19 @@ const clientLogos: ClientLogo[] = [
     name: "T&S",
     industry: "Commercial Plumbing",
     location: "United States of America",
-    logo: "./assets/T&s.png"
+    logo: TSLogo,
   },
   {
     name: "Finish Thompson Inc.",
     industry: "Pump Industry",
     location: "United States of America",
-    logo: "https://placehold.co/200x100/e2e8f0/475569?text=FTI"
+    logo: PUMLogo,
   },
   {
     name: "Unit Electrical Engineering Ltd.",
     industry: "Mining & Transportation",
     location: "Canada",
-    logo: "https://placehold.co/200x100/e2e8f0/475569?text=UEE"
+    logo: MINILogo,
   },
   {
     name: "Red Valve",
@@ -46,13 +53,13 @@ const clientLogos: ClientLogo[] = [
     name: "Guard Air",
     industry: "Safety Air Guns",
     location: "United States of America",
-    logo: "https://placehold.co/200x100/e2e8f0/475569?text=Guard+Air"
+    logo: GUALogo,
   },
   {
     name: "Dixon",
     industry: "Valves & Couplings",
     location: "United States of America",
-    logo: "https://placehold.co/200x100/e2e8f0/475569?text=Dixon"
+    logo: DILogo,
   },
   {
     name: "Manufacturing Technology Inc.",
